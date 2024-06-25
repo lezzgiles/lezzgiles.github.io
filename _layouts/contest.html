@@ -1,0 +1,29 @@
+{% include head.html %}
+
+<body>
+
+  {% include nav.html %}
+
+  <div id="reservations">
+
+    <div class="page-content">
+      <div>
+        {{ content }}
+        {% include footer.html %}
+      </div>
+    </div>
+
+
+  </div>
+  <script src="/assets/js/jquery-2.1.4.min.js"></script>
+  <script src="/assets/js/bootstrap.js"></script>
+  <script>
+    $(document).ready(function () {
+      $("div.sidebar ul a[href]").each(function () {
+        if (this.href == window.location.href) {
+          $(this).addClass("active");
+        }
+      });
+    });
+  </script>
+</body>
