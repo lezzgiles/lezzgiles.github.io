@@ -1,6 +1,6 @@
 #contests {
   $switchover-width: 768px;
-  $sidebar-width: 200px;
+  $sidebar-width: 0px;
   $link-color: #4C5761;
   $sidebar-background-color: #f4f4f7;
 
@@ -122,8 +122,8 @@
   }
 
   .page-content {
-    margin-left: $sidebar-width;
-    padding: 20px 0;
+    // margin-left: $sidebar-width;
+    // padding: 20px 0;
     @include transition(0.5s);
 
     @media (max-width: $switchover-width) {
@@ -132,8 +132,8 @@
 
     >div {
       max-width: 900px;
-      margin: 0 auto 10px;
-      padding: 0 30px;
+      // margin: 0 auto 10px;
+      // padding: 0 30px;
       @include clearfix;
     }
 
