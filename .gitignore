@@ -9,3 +9,9 @@ Thumbs.db
 vendor
 .jekyll-cache
 .DS_Store
+
+bin
+cache
+gems
+specifications
+extensions
