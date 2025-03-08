@@ -30,8 +30,8 @@
     left: 20px;
     top: 80px;
     z-index: 1;
-    @include transition-property(transform);
-    @include transition-duration(0.5s);
+    //@include transition-property(transform);
+    //@include transition-duration(0.5s);
 
     @media (min-width: $switchover-width + 1) {
       display: none;
@@ -124,7 +124,7 @@
   .page-content {
     // margin-left: $sidebar-width;
     // padding: 20px 0;
-    @include transition(0.5s);
+    //@include transition(0.5s);
 
     @media (max-width: $switchover-width) {
       margin-left: 50px;

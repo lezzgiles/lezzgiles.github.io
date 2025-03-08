@@ -10,15 +10,15 @@
     &:checked {
       @media (max-width: $switchover-width) {
         ~ .sidebar {
-          @include transform(translateX($sidebar-width));
+          //@include transform(translateX($sidebar-width));
         }
         
         ~ .toggle {
-          @include transform(translateX($sidebar-width));
+          //@include transform(translateX($sidebar-width));
         }
         
         ~ .page-content {
-          @include transform(translateX($sidebar-width));
+          //@include transform(translateX($sidebar-width));
         }
       }
     }
@@ -30,8 +30,8 @@
     left: 20px;
     top: 80px;
     z-index: 1;
-    @include transition-property(transform);
-    @include transition-duration(0.5s);
+    //@include transition-property(transform);
+    //@include transition-duration(0.5s);
     
     @media (min-width: $switchover-width + 1) {
       display: none;
@@ -51,7 +51,7 @@
     padding: 20px 12px 20px 10px;
     background-color: $sidebar-background-color;
     overflow-y: auto;
-    @include transition(0.5s);
+    //@include transition(0.5s);
     
     @media (max-width: $switchover-width) {
       left: -$sidebar-width;
@@ -129,7 +129,7 @@
   .page-content {
     margin-left: $sidebar-width;
     padding: 20px 0;
-    @include transition(0.5s);
+    //@include transition(0.5s);
 
     @media (max-width: $switchover-width) {
       margin-left: 50px;
@@ -139,7 +139,7 @@
       max-width: 900px;
       margin: 0 auto 10px;
       padding: 0 30px;
-      @include clearfix;
+      //@include clearfix;
     }
     
     h4 {

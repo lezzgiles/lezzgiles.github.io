@@ -50,7 +50,7 @@
     margin: 0px auto 50px;
     color: white;
     font-size: 20px;
-    @include transition(0.2s);
+    //@include transition(0.2s);
 
     &:hover, &:focus {
       text-decoration: none;
@@ -203,7 +203,7 @@
     margin: 0px auto 50px;
     color: white;
     font-size: 20px;
-    @include transition(0.2s);
+    //@include transition(0.2s);
 
     &:hover,
     &:focus {
